@@ -18,11 +18,10 @@
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
     "@testing-library/react": "^16.2.0",
     "@types/jest": "^29.5.14",
-    "@typescript-eslint/eslint-plugin": "^8.24.1",
-    "@typescript-eslint/parser": "^8.24.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.21.0",
     "eslint-config-prettier": "^10.0.1",
@@ -32,14 +31,15 @@
     "prettier": "^3.5.2",
     "rollup": "^4.34.8",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-terser": "^7.0.2",
     "storybook": "^8.5.8",
     "ts-jest": "^29.2.5",
     "typescript": "^5.7.3",
+    "typescript-eslint": "^8.29.0",
     "vite": "^6.1.1",
     "vitepress": "^1.6.3"
   },
   "dependencies": {
+    "@type-dom/css-type": "^0.0.2",
     "@type-dom/utils": "^0.1.0"
   }
 }
